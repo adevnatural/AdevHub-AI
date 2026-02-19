@@ -38,11 +38,9 @@ async function isLegacyOnboarded() {
   // LLM Provider is set, so we can assume onboarding is complete since this is default null in SystemSettings.js
   if (!!process.env.LLM_PROVIDER) return true;
 
-  // Vector DB is set, so we can assume onboarding is complete since this is default null in SystemSettings.js (default is lancedb in frontend)
-  if (!!process.env.VECTOR_DB) return true;
-
-  // Check if the AUTH_TOKEN/JWT_SECRET is set, so we can assume onboarding is complete since this is default null in SystemSettings.js
-  if (!!process.env.AUTH_TOKEN || !!process.env.JWT_SECRET) return true;
+  // NOTE: VECTOR_DB and JWT_SECRET/AUTH_TOKEN checks removed because they are
+  // set by default in .env.development and would falsely mark fresh installs
+  // as already onboarded, preventing the setup flow from appearing.
 
   // Check multi-user mode is enabled, if it is, then they are already using the app.
   if ((await SystemSettings.isMultiUserMode()) === true) return true;

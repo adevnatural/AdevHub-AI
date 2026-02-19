@@ -46,9 +46,11 @@ export default function Sidebar() {
           <div className="flex shrink-0 w-full justify-center my-[18px]">
             <div className="flex w-[250px] min-w-[250px]">
               <Link to={paths.home()} aria-label="Home">
-                <h1 className={`text-2xl font-bold text-white tracking-wide transition-opacity duration-500 ${showSidebar ? "opacity-100" : "opacity-0"}`}>
-                  Adev-Ai
-                </h1>
+                <img
+                  src={logo}
+                  alt="Adev AI Logo"
+                  className={`max-h-[40px] w-auto object-contain transition-opacity duration-500 ${showSidebar ? "opacity-100" : "opacity-0"}`}
+                />
               </Link>
             </div>
           </div>
@@ -118,9 +120,11 @@ export function SidebarMobileHeader() {
           <List className="h-6 w-6" />
         </button>
         <div className="flex items-center justify-center flex-grow">
-          <h1 className="text-xl font-bold text-slate-200">
-            Adev-Ai
-          </h1>
+          <img
+            src={logo}
+            alt="Adev AI Logo"
+            className="max-h-[30px] w-auto object-contain"
+          />
         </div>
         <div className="w-12"></div>
       </div>
@@ -132,8 +136,8 @@ export function SidebarMobileHeader() {
       >
         <div
           className={`${showBgOverlay
-              ? "transition-all opacity-1"
-              : "transition-none opacity-0"
+            ? "transition-all opacity-1"
+            : "transition-none opacity-0"
             }  duration-500 fixed top-0 left-0 bg-theme-bg-secondary bg-opacity-75 w-screen h-screen`}
           onClick={() => setShowSidebar(false)}
         />
@@ -145,9 +149,11 @@ export function SidebarMobileHeader() {
             {/* Header Information */}
             <div className="flex w-full items-center justify-between gap-x-4">
               <div className="flex shrink-1 w-fit items-center justify-start">
-                <h1 className="text-2xl font-bold text-white">
-                  Adev-Ai
-                </h1>
+                <img
+                  src={logo}
+                  alt="Adev AI Logo"
+                  className="max-h-[30px] w-auto object-contain"
+                />
               </div>
               {(!user || user?.role !== "default") && (
                 <div className="flex gap-x-2 items-center text-slate-500 shink-0">
