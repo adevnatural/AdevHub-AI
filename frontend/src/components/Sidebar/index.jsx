@@ -46,11 +46,9 @@ export default function Sidebar() {
           <div className="flex shrink-0 w-full justify-center my-[18px]">
             <div className="flex w-[250px] min-w-[250px]">
               <Link to={paths.home()} aria-label="Home">
-                <img
-                  src={logo}
-                  alt="Logo"
-                  className={`rounded max-h-[24px] object-contain transition-opacity duration-500 ${showSidebar ? "opacity-100" : "opacity-0"}`}
-                />
+                <h1 className={`text-2xl font-bold text-white tracking-wide transition-opacity duration-500 ${showSidebar ? "opacity-100" : "opacity-0"}`}>
+                  Adev-Ai
+                </h1>
               </Link>
             </div>
           </div>
@@ -120,12 +118,9 @@ export function SidebarMobileHeader() {
           <List className="h-6 w-6" />
         </button>
         <div className="flex items-center justify-center flex-grow">
-          <img
-            src={logo}
-            alt="Logo"
-            className="block mx-auto h-6 w-auto"
-            style={{ maxHeight: "40px", objectFit: "contain" }}
-          />
+          <h1 className="text-xl font-bold text-slate-200">
+            Adev-Ai
+          </h1>
         </div>
         <div className="w-12"></div>
       </div>
@@ -136,11 +131,10 @@ export function SidebarMobileHeader() {
         className={`z-99 fixed top-0 left-0 transition-all duration-500 w-[100vw] h-[100vh]`}
       >
         <div
-          className={`${
-            showBgOverlay
+          className={`${showBgOverlay
               ? "transition-all opacity-1"
               : "transition-none opacity-0"
-          }  duration-500 fixed top-0 left-0 bg-theme-bg-secondary bg-opacity-75 w-screen h-screen`}
+            }  duration-500 fixed top-0 left-0 bg-theme-bg-secondary bg-opacity-75 w-screen h-screen`}
           onClick={() => setShowSidebar(false)}
         />
         <div
@@ -151,12 +145,9 @@ export function SidebarMobileHeader() {
             {/* Header Information */}
             <div className="flex w-full items-center justify-between gap-x-4">
               <div className="flex shrink-1 w-fit items-center justify-start">
-                <img
-                  src={logo}
-                  alt="Logo"
-                  className="rounded w-full max-h-[40px]"
-                  style={{ objectFit: "contain" }}
-                />
+                <h1 className="text-2xl font-bold text-white">
+                  Adev-Ai
+                </h1>
               </div>
               {(!user || user?.role !== "default") && (
                 <div className="flex gap-x-2 items-center text-slate-500 shink-0">
