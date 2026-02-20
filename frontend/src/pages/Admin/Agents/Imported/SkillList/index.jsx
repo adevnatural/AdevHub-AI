@@ -13,12 +13,12 @@ export default function ImportedSkillList({
         <p>
           Learn about agent skills in the{" "}
           <a
-            href="https://docs.anythingllm.com/agent/custom/developer-guide"
+            href="https://docs.Adev-AI.com/agent/custom/developer-guide"
             target="_blank"
             className="text-theme-text-secondary underline hover:text-cta-button"
             rel="noreferrer"
           >
-            AnythingLLM Agent Docs
+            Adev-AI Agent Docs
           </a>
           .
         </p>
@@ -32,15 +32,12 @@ export default function ImportedSkillList({
       {skills.map((config, index) => (
         <div
           key={config.hubId}
-          className={`py-3 px-4 flex items-center justify-between ${
-            index === 0 ? "rounded-t-xl" : ""
-          } ${
-            index === Object.keys(skills).length - 1
+          className={`py-3 px-4 flex items-center justify-between ${index === 0 ? "rounded-t-xl" : ""
+            } ${index === Object.keys(skills).length - 1
               ? "rounded-b-xl"
               : "border-b border-white/10"
-          } cursor-pointer transition-all duration-300 hover:bg-theme-bg-primary ${
-            selectedSkill === config.hubId ? "bg-theme-bg-primary" : ""
-          }`}
+            } cursor-pointer transition-all duration-300 hover:bg-theme-bg-primary ${selectedSkill === config.hubId ? "bg-theme-bg-primary" : ""
+            }`}
           onClick={() => handleClick?.({ ...config, imported: true })}
         >
           <div className="text-sm font-light">{sentenceCase(config.name)}</div>

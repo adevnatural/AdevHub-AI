@@ -3,7 +3,7 @@ import Sidebar from "@/components/SettingsSidebar";
 import { isMobile } from "react-device-detect";
 import System from "@/models/system";
 import showToast from "@/utils/toast";
-import AnythingLLMIcon from "@/media/logo/anything-llm-icon.png";
+import AdevAiIcon from "@/media/logo/adev-ai-logo-blue.svg";
 import OpenAiLogo from "@/media/llmprovider/openai.png";
 import AzureOpenAiLogo from "@/media/llmprovider/azure.png";
 import GeminiAiLogo from "@/media/llmprovider/gemini.png";
@@ -42,12 +42,12 @@ import MistralAiOptions from "@/components/EmbeddingSelection/MistralAiOptions";
 
 const EMBEDDERS = [
   {
-    name: "AnythingLLM Embedder",
+    name: "Adev-AI Embedder",
     value: "native",
-    logo: AnythingLLMIcon,
+    logo: AdevAiIcon,
     options: (settings) => <NativeEmbeddingOptions settings={settings} />,
     description:
-      "Use the built-in embedding provider for AnythingLLM. Zero setup!",
+      "Use the built-in embedding provider for Adev-AI. Zero setup!",
   },
   {
     name: "OpenAI",

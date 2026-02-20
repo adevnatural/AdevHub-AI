@@ -3,18 +3,18 @@ const TRANSLATIONS = {
   onboarding: {
     survey: {
       email: "E-posta adresiniz nedir?",
-      useCase: "AnythingLLM'yi ne için kullanacaksınız?",
+      useCase: "Adev-AI'yi ne için kullanacaksınız?",
       useCaseWork: "İş için",
       useCasePersonal: "Kişisel kullanım için",
       useCaseOther: "Diğer",
-      comment: "AnythingLLM'yi nasıl duydunuz?",
+      comment: "Adev-AI'yi nasıl duydunuz?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube vb. - Bizi nasıl buldunuz?",
       skip: "Anketi Atla",
       thankYou: "Geri bildiriminiz için teşekkür ederiz!",
-      title: "AnythingLLM'ye Hoş Geldiniz",
+      title: "Adev-AI'ye Hoş Geldiniz",
       description:
-        "AnythingLLM'yi ihtiyaçlarınıza göre oluşturmamıza yardımcı olun. İsteğe bağlı.",
+        "Adev-AI'yi ihtiyaçlarınıza göre oluşturmamıza yardımcı olun. İsteğe bağlı.",
     },
     home: {
       title: "Hoş Geldiniz",
@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     llm: {
       title: "LLM Tercihi",
       description:
-        "AnythingLLM birçok LLM sağlayıcısıyla çalışabilir. Bu, sohbeti yöneten hizmet olacaktır.",
+        "Adev-AI birçok LLM sağlayıcısıyla çalışabilir. Bu, sohbeti yöneten hizmet olacaktır.",
     },
     userSetup: {
       title: "Kullanıcı Kurulumu",
@@ -52,7 +52,7 @@ const TRANSLATIONS = {
     workspace: {
       title: "İlk çalışma alanınızı oluşturun",
       description:
-        "İlk çalışma alanınızı oluşturun ve AnythingLLM ile başlayın.",
+        "İlk çalışma alanınızı oluşturun ve Adev-AI ile başlayın.",
     },
   },
   common: {
@@ -103,7 +103,7 @@ const TRANSLATIONS = {
     interface: "Arayüz Tercihleri",
     branding: "Marka & Beyaz Etiketleme",
     chat: "Sohbet",
-    "mobile-app": "AnythingLLM Mobil",
+    "mobile-app": "Adev-AI Mobil",
   },
   login: {
     "multi-user": {
@@ -151,7 +151,7 @@ const TRANSLATIONS = {
       add: "Yeni mesaj ekle",
       save: "Mesajları Kaydet",
       heading: "Bana açıkla",
-      body: "AnythingLLM'nin faydalarını",
+      body: "Adev-AI'nin faydalarını",
     },
     pfp: {
       title: "Asistan Profil Görseli",
@@ -343,7 +343,7 @@ const TRANSLATIONS = {
   api: {
     title: "API Anahtarları",
     description:
-      "API anahtarları, bu AnythingLLM örneğine programatik olarak erişmeye ve yönetmeye olanak tanır.",
+      "API anahtarları, bu Adev-AI örneğine programatik olarak erişmeye ve yönetmeye olanak tanır.",
     link: "API dokümantasyonunu okuyun",
     generate: "Yeni API Anahtarı Oluştur",
     table: {
@@ -355,7 +355,7 @@ const TRANSLATIONS = {
   llm: {
     title: "LLM Tercihi",
     description:
-      "Bu, tercih ettiğiniz LLM sohbet ve gömme sağlayıcısının kimlik bilgileri ile ayarlarıdır. Bu anahtarların güncel ve doğru olması önemlidir; aksi takdirde AnythingLLM doğru çalışmayacaktır.",
+      "Bu, tercih ettiğiniz LLM sohbet ve gömme sağlayıcısının kimlik bilgileri ile ayarlarıdır. Bu anahtarların güncel ve doğru olması önemlidir; aksi takdirde Adev-AI doğru çalışmayacaktır.",
     provider: "LLM Sağlayıcısı",
     providers: {
       azure_openai: {
@@ -377,7 +377,7 @@ const TRANSLATIONS = {
       "Bu, tercih ettiğiniz transkripsiyon modeli sağlayıcısının kimlik bilgileri ve ayarlarıdır. Anahtarların güncel ve doğru olması önemlidir; aksi takdirde medya dosyaları ve sesler transkribe edilemez.",
     provider: "Transkripsiyon Sağlayıcısı",
     "warn-start":
-      "Sınırlı RAM veya CPU'ya sahip makinelerde yerel Whisper modelini kullanmak, medya dosyalarını işlerken AnythingLLM'nin duraksamasına neden olabilir.",
+      "Sınırlı RAM veya CPU'ya sahip makinelerde yerel Whisper modelini kullanmak, medya dosyalarını işlerken Adev-AI'nin duraksamasına neden olabilir.",
     "warn-recommend":
       "En az 2GB RAM öneriyoruz ve 10MB üzerinde dosya yüklememeye dikkat edin.",
     "warn-end":
@@ -388,7 +388,7 @@ const TRANSLATIONS = {
     "desc-start":
       "Yerel olarak gömme mekanizmasını desteklemeyen bir LLM kullanıyorsanız, metinleri gömmek için ek kimlik bilgileri girmeniz gerekebilir.",
     "desc-end":
-      "Gömme, metni vektörlere dönüştürme sürecidir. Dosyalarınızın ve komutlarınızın işlenebilmesi için AnythingLLM, bu kimlik bilgilerine ihtiyaç duyar.",
+      "Gömme, metni vektörlere dönüştürme sürecidir. Dosyalarınızın ve komutlarınızın işlenebilmesi için Adev-AI, bu kimlik bilgilerine ihtiyaç duyar.",
     provider: {
       title: "Embedding Sağlayıcısı",
     },
@@ -414,7 +414,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Vektör Veritabanı",
     description:
-      "AnythingLLM örneğinizin nasıl çalışacağını belirleyen kimlik bilgileri ve ayarları burada bulunur. Bu anahtarların güncel ve doğru olması önemlidir.",
+      "Adev-AI örneğinizin nasıl çalışacağını belirleyen kimlik bilgileri ve ayarları burada bulunur. Bu anahtarların güncel ve doğru olması önemlidir.",
     provider: {
       title: "Vektör Veritabanı Sağlayıcısı",
       description: "LanceDB için ek bir yapılandırma gerekmez.",
@@ -459,7 +459,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Gizlilik & Veri İşleme",
     description:
-      "Bağlantılı üçüncü taraf sağlayıcılarla ve AnythingLLM ile verilerinizin nasıl ele alındığını burada yapılandırabilirsiniz.",
+      "Bağlantılı üçüncü taraf sağlayıcılarla ve Adev-AI ile verilerinizin nasıl ele alındığını burada yapılandırabilirsiniz.",
     llm: "LLM Seçimi",
     embedding: "Gömme Tercihi",
     vector: "Vektör Veritabanı",
@@ -627,22 +627,22 @@ const TRANSLATIONS = {
       fetching: "Alınıyor...",
       "fetch-website": "Web sitesini al",
       "privacy-notice":
-        "Bu dosyalar, bu AnythingLLM örneğinde çalışan belge işleyiciye yüklenecektir. Bu dosyalar üçüncü taraflarla paylaşılmaz.",
+        "Bu dosyalar, bu Adev-AI örneğinde çalışan belge işleyiciye yüklenecektir. Bu dosyalar üçüncü taraflarla paylaşılmaz.",
     },
     pinning: {
       what_pinning: "Belge sabitleme nedir?",
       pin_explained_block1:
-        "AnythingLLM'de bir belgeyi <b>sabitlediğinizde</b>, belgenin tüm içeriğini LLM'nin tam olarak anlaması için prompt pencerenize enjekte ederiz.",
+        "Adev-AI'de bir belgeyi <b>sabitlediğinizde</b>, belgenin tüm içeriğini LLM'nin tam olarak anlaması için prompt pencerenize enjekte ederiz.",
       pin_explained_block2:
         "Bu, <b>büyük bağlam modelleri</b> veya bilgi tabanı için kritik olan küçük dosyalarla en iyi şekilde çalışır.",
       pin_explained_block3:
-        "AnythingLLM'den varsayılan olarak istediğiniz yanıtları alamıyorsanız, sabitleme tek tıklamayla daha yüksek kaliteli yanıtlar almanın harika bir yoludur.",
+        "Adev-AI'den varsayılan olarak istediğiniz yanıtları alamıyorsanız, sabitleme tek tıklamayla daha yüksek kaliteli yanıtlar almanın harika bir yoludur.",
       accept: "Tamam, anladım",
     },
     watching: {
       what_watching: "Bir belgeyi izlemek ne yapar?",
       watch_explained_block1:
-        "AnythingLLM'de bir belgeyi <b>izlediğinizde</b>, belge içeriğinizi orijinal kaynağından düzenli aralıklarla <i>otomatik olarak</i> senkronize ederiz. Bu, dosyanın yönetildiği her çalışma alanında içeriği otomatik olarak günceller.",
+        "Adev-AI'de bir belgeyi <b>izlediğinizde</b>, belge içeriğinizi orijinal kaynağından düzenli aralıklarla <i>otomatik olarak</i> senkronize ederiz. Bu, dosyanın yönetildiği her çalışma alanında içeriği otomatik olarak günceller.",
       watch_explained_block2:
         "Bu özellik şu anda yalnızca çevrimiçi tabanlı içeriği desteklemektedir ve manuel olarak yüklenen belgeler için kullanılamayacaktır.",
       watch_explained_block3_start: "Hangi belgelerin izlendiğini ",
@@ -747,16 +747,16 @@ const TRANSLATIONS = {
   customization: {
     interface: {
       title: "Arayüz Tercihleri",
-      description: "AnythingLLM için arayüz tercihlerinizi ayarlayın.",
+      description: "Adev-AI için arayüz tercihlerinizi ayarlayın.",
     },
     branding: {
       title: "Marka & Beyaz Etiketleme",
       description:
-        "AnythingLLM örneğinizi özel markalamayla beyaz etiketleyin.",
+        "Adev-AI örneğinizi özel markalamayla beyaz etiketleyin.",
     },
     chat: {
       title: "Sohbet",
-      description: "AnythingLLM için sohbet tercihlerinizi ayarlayın.",
+      description: "Adev-AI için sohbet tercihlerinizi ayarlayın.",
       auto_submit: {
         title: "Konuşma Girişini Otomatik Gönder",
         description:
@@ -800,7 +800,7 @@ const TRANSLATIONS = {
       "display-language": {
         title: "Görüntüleme Dili",
         description:
-          "AnythingLLM'nin kullanıcı arayüzünü görüntülemek için tercih edilen dili seçin - çeviriler mevcut olduğunda.",
+          "Adev-AI'nin kullanıcı arayüzünü görüntülemek için tercih edilen dili seçin - çeviriler mevcut olduğunda.",
       },
       logo: {
         title: "Marka Logosu",
@@ -818,7 +818,7 @@ const TRANSLATIONS = {
         system: "sistem",
         user: "kullanıcı",
         message: "mesaj",
-        assistant: "AnythingLLM Sohbet Asistanı",
+        assistant: "Adev-AI Sohbet Asistanı",
         "double-click": "Düzenlemek için çift tıklayın...",
         save: "Mesajları Kaydet",
       },
@@ -856,7 +856,7 @@ const TRANSLATIONS = {
     checklist: {
       title: "Başlarken",
       tasksLeft: "kalan görev",
-      completed: "AnythingLLM uzmanı olma yolundasınız!",
+      completed: "Adev-AI uzmanı olma yolundasınız!",
       dismiss: "kapat",
       tasks: {
         create_workspace: {
@@ -1039,7 +1039,7 @@ const TRANSLATIONS = {
         unauthenticated: {
           title: "Kimlik Doğrulama Gerekli",
           description:
-            "Öğeleri yayınlamadan önce AnythingLLM Topluluk Hub'ına kimlik doğrulaması yapmanız gerekir.",
+            "Öğeleri yayınlamadan önce Adev-AI Topluluk Hub'ına kimlik doğrulaması yapmanız gerekir.",
           button: "Topluluk Hub'ına Bağlan",
         },
       },
@@ -1063,7 +1063,7 @@ const TRANSLATIONS = {
     password: {
       title: "Şifre Koruması",
       description:
-        "AnythingLLM örneğinizi bir şifre ile koruyun. Bu şifreyi unutmanız hâlinde kurtarma yöntemi yoktur, bu yüzden mutlaka güvende saklayın.",
+        "Adev-AI örneğinizi bir şifre ile koruyun. Bu şifreyi unutmanız hâlinde kurtarma yöntemi yoktur, bu yüzden mutlaka güvende saklayın.",
       "password-label": "Örnek şifresi",
     },
   },
