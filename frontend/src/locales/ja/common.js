@@ -50,8 +50,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "最初のワークスペースを作成する",
-      description:
-        "最初のワークスペースを作成して、Adev-AIを始めましょう。",
+      description: "最初のワークスペースを作成して、Adev-AIを始めましょう。",
     },
   },
   common: {

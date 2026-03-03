@@ -51,8 +51,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "İlk çalışma alanınızı oluşturun",
-      description:
-        "İlk çalışma alanınızı oluşturun ve Adev-AI ile başlayın.",
+      description: "İlk çalışma alanınızı oluşturun ve Adev-AI ile başlayın.",
     },
   },
   common: {
@@ -751,8 +750,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Marka & Beyaz Etiketleme",
-      description:
-        "Adev-AI örneğinizi özel markalamayla beyaz etiketleyin.",
+      description: "Adev-AI örneğinizi özel markalamayla beyaz etiketleyin.",
     },
     chat: {
       title: "Sohbet",

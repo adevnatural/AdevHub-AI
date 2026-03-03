@@ -4,14 +4,14 @@ import showToast from "@/utils/toast";
 import LLMItem from "@/components/LLMSelection/LLMItem";
 import { CaretUpDown, MagnifyingGlass, X } from "@phosphor-icons/react";
 import CTAButton from "@/components/lib/CTAButton";
-import AdevAIIcon from "@/media/logo/anything-llm-icon.png";
+import AdevhubAIIcon from "@/media/logo/adev-ai-logo-blue.svg";
 import BrowserNative from "@/components/SpeechToText/BrowserNative";
 
 const PROVIDERS = [
   {
     name: "System native",
     value: "native",
-    logo: AdevAIIcon,
+    logo: AdevhubAIIcon,
     options: (settings) => <BrowserNative settings={settings} />,
     description: "Uses your browser's built in STT service if supported.",
   },

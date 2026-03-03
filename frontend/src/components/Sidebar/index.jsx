@@ -48,7 +48,7 @@ export default function Sidebar() {
               <Link to={paths.home()} aria-label="Home">
                 <img
                   src={logo}
-                  alt="Adev AI Logo"
+                  alt="ADEVHUB-AI Logo"
                   className={`max-h-[40px] w-auto object-contain transition-opacity duration-500 ${showSidebar ? "opacity-100" : "opacity-0"}`}
                 />
               </Link>
@@ -122,7 +122,7 @@ export function SidebarMobileHeader() {
         <div className="flex items-center justify-center flex-grow">
           <img
             src={logo}
-            alt="Adev AI Logo"
+            alt="ADEVHUB-AI Logo"
             className="max-h-[30px] w-auto object-contain"
           />
         </div>
@@ -136,8 +136,8 @@ export function SidebarMobileHeader() {
       >
         <div
           className={`${showBgOverlay
-            ? "transition-all opacity-1"
-            : "transition-none opacity-0"
+              ? "transition-all opacity-1"
+              : "transition-none opacity-0"
             }  duration-500 fixed top-0 left-0 bg-theme-bg-secondary bg-opacity-75 w-screen h-screen`}
           onClick={() => setShowSidebar(false)}
         />
@@ -151,7 +151,7 @@ export function SidebarMobileHeader() {
               <div className="flex shrink-1 w-fit items-center justify-start">
                 <img
                   src={logo}
-                  alt="Adev AI Logo"
+                  alt="ADEVHUB-AI Logo"
                   className="max-h-[30px] w-auto object-contain"
                 />
               </div>

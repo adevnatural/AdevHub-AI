@@ -62,6 +62,7 @@ export default defineConfig({
     ]
   },
   build: {
+    chunkSizeWarningLimit: 2000,
     rollupOptions: {
       output: {
         // These settings ensure the primary JS and CSS file references are always index.{js,css}

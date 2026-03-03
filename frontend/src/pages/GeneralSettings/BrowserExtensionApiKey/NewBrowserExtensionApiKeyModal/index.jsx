@@ -84,8 +84,8 @@ export default function NewBrowserExtensionApiKeyModal({
                 </p>
               )}
               <p className="text-white text-opacity-60 text-xs md:text-sm">
-                After clicking "Create API Key", Adev-AI will attempt to
-                connect to your browser extension automatically.
+                After clicking "Create API Key", Adev-AI will attempt to connect
+                to your browser extension automatically.
               </p>
               <p className="text-white text-opacity-60 text-xs md:text-sm">
                 If you see "Connected to Adev-AI" in the extension, the

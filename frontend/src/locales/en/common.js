@@ -51,8 +51,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "Create your first workspace",
-      description:
-        "Create your first workspace and get started with Adev-Ai.",
+      description: "Create your first workspace and get started with Adev-Ai.",
     },
   },
   common: {
@@ -458,8 +457,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Branding & Whitelabeling",
-      description:
-        "White-label your Adev-Ai instance with custom branding.",
+      description: "White-label your Adev-Ai instance with custom branding.",
     },
     chat: {
       title: "Chat",

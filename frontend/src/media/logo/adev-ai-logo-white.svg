@@ -1,20 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150">
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#eeeeee;stop-opacity:1" />
+    <linearGradient id="logoGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#42A5F5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1E88E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ACC1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nodeGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ACC1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26C6DA;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <g transform="translate(20, 25)">
-    <!-- Abstract AI Icon -->
-    <circle cx="50" cy="50" r="40" fill="url(#grad1)" />
-    <circle cx="50" cy="50" r="25" fill="#003366" />
-    <circle cx="50" cy="50" r="12" fill="url(#grad1)" />
-    <circle cx="50" cy="20" r="6" fill="#003366" />
-    <circle cx="75" cy="65" r="6" fill="#003366" />
-    <circle cx="25" cy="65" r="6" fill="#003366" />
+  <g transform="translate(15, 20)">
+    <!-- Connection lines -->
+    <line x1="55" y1="20" x2="28" y2="75" stroke="#42A5F5" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="55" y1="20" x2="82" y2="75" stroke="#42A5F5" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="28" y1="75" x2="82" y2="75" stroke="#42A5F5" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="55" y1="20" x2="55" y2="55" stroke="#00ACC1" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="28" y1="75" x2="55" y2="55" stroke="#00ACC1" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="82" y1="75" x2="55" y2="55" stroke="#00ACC1" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Arrows -->
+    <polygon points="78,58 84,65 76,65" fill="#26C6DA"/>
+    <polygon points="34,55 28,62 36,62" fill="#26C6DA"/>
+    <polygon points="63,77 57,83 57,71" fill="#26C6DA"/>
+    <!-- Central node -->
+    <circle cx="55" cy="55" r="9" fill="url(#nodeGradW)" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+    <!-- Outer nodes -->
+    <circle cx="55" cy="20" r="8" fill="url(#logoGradW)" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+    <circle cx="28" cy="75" r="8" fill="url(#logoGradW)" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+    <circle cx="82" cy="75" r="8" fill="url(#logoGradW)" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+    <!-- Accent nodes -->
+    <circle cx="41" cy="38" r="4" fill="#26C6DA"/>
+    <circle cx="69" cy="38" r="4" fill="#42A5F5"/>
+    <circle cx="55" cy="75" r="4" fill="#1E88E5"/>
     
-    <!-- Text -->
-    <text x="110" y="80" font-family="Arial, sans-serif" font-weight="bold" font-size="80" fill="#ffffff">Adev AI</text>
+    <!-- Text: ADEVHUB-AI -->
+    <text x="120" y="62" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="52" fill="#ffffff" letter-spacing="1">ADEVHUB-AI</text>
+    <!-- Tagline -->
+    <text x="122" y="88" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">One Portal, Every Intelligence.</text>
   </g>
 </svg>

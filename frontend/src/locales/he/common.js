@@ -48,8 +48,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "צור את סביבת העבודה הראשונה שלך",
-      description:
-        "צור את סביבת העבודה הראשונה שלך והתחל לעבוד עם Adev-AI.",
+      description: "צור את סביבת העבודה הראשונה שלך והתחל לעבוד עם Adev-AI.",
     },
   },
   common: {

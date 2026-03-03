@@ -428,8 +428,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Zīmolrade un identitāte",
-      description:
-        "Pielāgojiet savu Adev-AI instanci ar pielāgotu zīmolradi.",
+      description: "Pielāgojiet savu Adev-AI instanci ar pielāgotu zīmolradi.",
     },
     chat: {
       title: "Saruna",

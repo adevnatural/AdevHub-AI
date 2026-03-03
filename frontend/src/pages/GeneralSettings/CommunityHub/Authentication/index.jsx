@@ -126,9 +126,9 @@ export default function CommunityHubAuthentication() {
               </p>
             </div>
             <p className="text-xs leading-[18px] font-base text-theme-text-secondary">
-              Connecting your Adev-AI Community Hub account allows you to
-              access your <b>private</b> Adev-AI Community Hub items as well
-              as upload your own items to the Adev-AI Community Hub.
+              Connecting your Adev-AI Community Hub account allows you to access
+              your <b>private</b> Adev-AI Community Hub items as well as upload
+              your own items to the Adev-AI Community Hub.
             </p>
           </div>
 
@@ -142,16 +142,16 @@ export default function CommunityHubAuthentication() {
                   </h1>
                 </div>
                 <p className="text-sm text-theme-text-secondary">
-                  Connecting your Adev-AI Community Hub account allows you
-                  to pull in your <b>private</b> items from the Adev-AI
-                  Community Hub as well as upload your own items to the
-                  Adev-AI Community Hub.
+                  Connecting your Adev-AI Community Hub account allows you to
+                  pull in your <b>private</b> items from the Adev-AI Community
+                  Hub as well as upload your own items to the Adev-AI Community
+                  Hub.
                   <br />
                   <br />
                   <i>
                     You do not need to connect your Adev-AI Community Hub
-                    account to pull in public items from the Adev-AI
-                    Community Hub.
+                    account to pull in public items from the Adev-AI Community
+                    Hub.
                   </i>
                 </p>
               </div>

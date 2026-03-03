@@ -7,8 +7,7 @@ const TRANSLATIONS = {
     },
     llm: {
       title: "LLM 偏好",
-      description:
-        "Adev-AI 可以與多家 LLM 提供商合作。這將是處理聊天的服務。",
+      description: "Adev-AI 可以與多家 LLM 提供商合作。這將是處理聊天的服務。",
     },
     userSetup: {
       title: "使用者設定",
@@ -322,8 +321,7 @@ const TRANSLATIONS = {
   },
   api: {
     title: "API 金鑰",
-    description:
-      "API 金鑰允許持有者以程式化方式存取和管理此 Adev-AI 系統。",
+    description: "API 金鑰允許持有者以程式化方式存取和管理此 Adev-AI 系統。",
     link: "閱讀 API 文件",
     generate: "產生新的 API 金鑰",
     table: {
@@ -945,8 +943,7 @@ const TRANSLATIONS = {
       generic: {
         unauthenticated: {
           title: "需要驗證",
-          description:
-            "在發布項目之前，您需要通過 Adev-AI 社群中心進行驗證。",
+          description: "在發布項目之前，您需要通過 Adev-AI 社群中心進行驗證。",
           button: "連接到社群中心",
         },
       },

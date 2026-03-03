@@ -769,8 +769,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Branding e personalizzazione",
-      description:
-        "Personalizza la tua istanza di Adev-AI con il tuo marchio.",
+      description: "Personalizza la tua istanza di Adev-AI con il tuo marchio.",
     },
     chat: {
       title: "Chat",

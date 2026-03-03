@@ -36,8 +36,7 @@ const TRANSLATIONS = {
     },
     survey: {
       title: "Vítejte v Adev-AI",
-      description:
-        "Pomozte nám vybudovat Adev-AI pro vaše potřeby. Volitelné.",
+      description: "Pomozte nám vybudovat Adev-AI pro vaše potřeby. Volitelné.",
       email: "Jaký je váš e-mail?",
       useCase: "K čemu budete Adev-AI používat?",
       useCaseWork: "Pro práci",
@@ -51,8 +50,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "Vytvořte svůj první pracovní prostor",
-      description:
-        "Vytvořte svůj první pracovní prostor a začněte s Adev-AI.",
+      description: "Vytvořte svůj první pracovní prostor a začněte s Adev-AI.",
     },
   },
   common: {
@@ -439,8 +437,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Značení a bílé označení",
-      description:
-        "Bílé označení instance Adev-AI pomocí vlastního značení.",
+      description: "Bílé označení instance Adev-AI pomocí vlastního značení.",
     },
     chat: {
       title: "Chat",

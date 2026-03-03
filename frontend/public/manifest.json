@@ -1,12 +1,12 @@
 {
-  "name": "Adev AI",
-  "short_name": "Adev AI",
+  "name": "ADEVHUB-AI",
+  "short_name": "ADEVHUB-AI",
   "display": "standalone",
   "orientation": "portrait",
   "start_url": "/",
   "icons": [
     {
-      "src": "/adev-ai-icon.svg",
+      "src": "/adevhub-ai-icon.svg",
       "sizes": "any"
     }
   ]

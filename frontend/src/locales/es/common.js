@@ -131,8 +131,7 @@ const TRANSLATIONS = {
     checklist: {
       title: "Primeros pasos",
       tasksLeft: "tareas restantes",
-      completed:
-        "¡Estás en camino de convertirte en un experto en Adev-AI!",
+      completed: "¡Estás en camino de convertirte en un experto en Adev-AI!",
       dismiss: "cerrar",
       tasks: {
         create_workspace: {
@@ -439,8 +438,7 @@ const TRANSLATIONS = {
     },
     branding: {
       title: "Marca y marca blanca",
-      description:
-        "Personaliza tu instancia de Adev-AI con tu propia marca.",
+      description: "Personaliza tu instancia de Adev-AI con tu propia marca.",
     },
     chat: {
       title: "Chat",

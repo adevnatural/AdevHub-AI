@@ -130,8 +130,7 @@ const TRANSLATIONS = {
     checklist: {
       title: "Pierwsze kroki",
       tasksLeft: "- zadania do wykonania",
-      completed:
-        "Jesteś na najlepszej drodze do zostania ekspertem Adev-AI!",
+      completed: "Jesteś na najlepszej drodze do zostania ekspertem Adev-AI!",
       dismiss: "zamknij",
       tasks: {
         create_workspace: {

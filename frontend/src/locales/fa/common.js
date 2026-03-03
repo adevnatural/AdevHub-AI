@@ -52,8 +52,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "ایجاد فضای کاری اول خود",
-      description:
-        "فضای کاری خود را ایجاد کنید و با Adev-AI شروع به کار کنید.",
+      description: "فضای کاری خود را ایجاد کنید و با Adev-AI شروع به کار کنید.",
     },
   },
   common: {

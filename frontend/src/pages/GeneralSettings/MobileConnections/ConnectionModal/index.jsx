@@ -63,8 +63,8 @@ export default function MobileConnectModal({ isOpen, onClose }) {
               <ConnectionQrCode isOpen={isOpen} />
             </div>
             <p className="text-[#FFF] text-sm w-[300px] text-center">
-              Scan the QR code with the Adev-AI Mobile app to enable live
-              sync of your workspaces, chats, threads and documents.
+              Scan the QR code with the Adev-AI Mobile app to enable live sync
+              of your workspaces, chats, threads and documents.
               <br />
               <Link
                 to={paths.documentation.mobileIntroduction()}

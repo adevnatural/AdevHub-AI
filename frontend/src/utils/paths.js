@@ -47,22 +47,22 @@ export default {
     },
   },
   github: () => {
-    return "https://github.com/Mintplex-Labs/anything-llm";
+    return "https://github.com/adevnatural/AsistenAI-Adev";
   },
   discord: () => {
     return "https://discord.com/invite/6UyHPeGZAC";
   },
   docs: () => {
-    return "https://docs.Adev-AI.com";
+    return "https://docs.adevhub-ai.com";
   },
   chatModes: () => {
-    return "https://docs.Adev-AI.com/features/chat-modes";
+    return "https://docs.adevhub-ai.com/features/chat-modes";
   },
   mailToMintplex: () => {
-    return "mailto:team@mintplexlabs.com";
+    return "mailto:support@adevhub-ai.com";
   },
   hosting: () => {
-    return "https://my.mintplexlabs.com/aio-checkout?product=Adev-AI";
+    return "https://adevhub-ai.com";
   },
   workspace: {
     chat: (slug, options = {}) => {
@@ -183,7 +183,7 @@ export default {
     website: () => {
       return import.meta.env.DEV
         ? `http://localhost:5173`
-        : `https://hub.Adev-AI.com`;
+        : `https://hub.adevhub-ai.com`;
     },
     /**
      * View more items of a given type on the community hub.
@@ -210,17 +210,17 @@ export default {
       return `${this.website()}/me`;
     },
     noPrivateItems: () => {
-      return "https://docs.Adev-AI.com/community-hub/faq#no-private-items";
+      return "https://docs.adevhub-ai.com/community-hub/faq#no-private-items";
     },
   },
 
-  // TODO: Migrate all docs.Adev-AI.com links to the new docs.
+  // TODO: Migrate all docs.adevhub-ai.com links to the new docs.
   documentation: {
     mobileIntroduction: () => {
-      return "https://docs.Adev-AI.com/mobile/overview";
+      return "https://docs.adevhub-ai.com/mobile/overview";
     },
     contextWindows: () => {
-      return "https://docs.Adev-AI.com/chatting-with-documents/introduction#you-exceed-the-context-window---what-now";
+      return "https://docs.adevhub-ai.com/chatting-with-documents/introduction#you-exceed-the-context-window---what-now";
     },
   },
 

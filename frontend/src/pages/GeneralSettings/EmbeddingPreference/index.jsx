@@ -3,7 +3,7 @@ import Sidebar from "@/components/SettingsSidebar";
 import { isMobile } from "react-device-detect";
 import System from "@/models/system";
 import showToast from "@/utils/toast";
-import AdevAiIcon from "@/media/logo/adev-ai-logo-blue.svg";
+import AdevhubAiIcon from "@/media/logo/adev-ai-logo-blue.svg";
 import OpenAiLogo from "@/media/llmprovider/openai.png";
 import AzureOpenAiLogo from "@/media/llmprovider/azure.png";
 import GeminiAiLogo from "@/media/llmprovider/gemini.png";
@@ -44,10 +44,9 @@ const EMBEDDERS = [
   {
     name: "Adev-AI Embedder",
     value: "native",
-    logo: AdevAiIcon,
+    logo: AdevhubAiIcon,
     options: (settings) => <NativeEmbeddingOptions settings={settings} />,
-    description:
-      "Use the built-in embedding provider for Adev-AI. Zero setup!",
+    description: "Use the built-in embedding provider for Adev-AI. Zero setup!",
   },
   {
     name: "OpenAI",

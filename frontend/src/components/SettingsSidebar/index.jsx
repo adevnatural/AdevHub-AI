@@ -72,11 +72,10 @@ export default function SettingsSidebar() {
           className={`z-99 fixed top-0 left-0 transition-all duration-500 w-[100vw] h-[100vh]`}
         >
           <div
-            className={`${
-              showBgOverlay
+            className={`${showBgOverlay
                 ? "transition-all opacity-1"
                 : "transition-none opacity-0"
-            }  duration-500 fixed top-0 left-0 bg-theme-bg-secondary bg-opacity-75 w-screen h-screen`}
+              }  duration-500 fixed top-0 left-0 bg-theme-bg-secondary bg-opacity-75 w-screen h-screen`}
             onClick={() => setShowSidebar(false)}
           />
           <div
@@ -421,9 +420,7 @@ const SidebarOptions = ({ user = null, t }) => (
 function HoldToReveal({ children, holdForMs = 3_000 }) {
   let timeout = null;
   const [showing, setShowing] = useState(
-    window.localStorage.getItem(
-      "Adev-AI_experimental_feature_preview_unlocked"
-    )
+    window.localStorage.getItem("ADEVHUB-AI_experimental_feature_preview_unlocked")
   );
 
   useEffect(() => {
@@ -434,7 +431,7 @@ function HoldToReveal({ children, holdForMs = 3_000 }) {
         // Setting toastId prevents hook spam from holding control too many times or the event not detaching
         showToast("Experimental feature previews unlocked!");
         window.localStorage.setItem(
-          "Adev-AI_experimental_feature_preview_unlocked",
+          "ADEVHUB-AI_experimental_feature_preview_unlocked",
           "enabled"
         );
         window.removeEventListener("keypress", onPress);
@@ -472,7 +469,7 @@ function AppVersion() {
   if (isLoading) return null;
   return (
     <Link
-      to={`https://github.com/Mintplex-Labs/anything-llm/releases/tag/v${version}`}
+      to={`https://github.com/adevnatural/AsistenAI-Adev/releases/tag/v${version}`}
       target="_blank"
       rel="noreferrer"
       className="text-theme-text-secondary light:opacity-80 opacity-50 text-xs mx-3"

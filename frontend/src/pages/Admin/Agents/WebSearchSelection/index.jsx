@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Admin from "@/models/admin";
-import AdevAiIcon from "@/media/logo/adev-ai-logo-blue.svg";
+import AdevhubAiIcon from "@/media/logo/adev-ai-logo-blue.svg";
 import GoogleSearchIcon from "./icons/google.png";
 import SerpApiIcon from "./icons/serpapi.png";
 import SearchApiIcon from "./icons/searchapi.png";
@@ -37,7 +37,7 @@ const SEARCH_PROVIDERS = [
   {
     name: "Please make a selection",
     value: "none",
-    logo: AdevAiIcon,
+    logo: AdevhubAiIcon,
     options: () => <React.Fragment />,
     description:
       "Web search will be disabled until a provider and keys are provided.",

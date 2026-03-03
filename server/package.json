@@ -1,7 +1,7 @@
 {
-  "name": "anything-llm-server",
+  "name": "adevhub-ai-server",
   "version": "1.11.0",
-  "description": "Server endpoints to process or create content for chatting",
+  "description": "ADEVHUB-AI Server - API endpoints for AI processing",
   "main": "index.js",
   "author": "Timothy Carambat (Mintplex Labs)",
   "license": "MIT",

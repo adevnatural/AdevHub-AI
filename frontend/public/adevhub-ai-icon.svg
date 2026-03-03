@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D47A1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1565C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ACC1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ACC1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26C6DA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded rectangle -->
+  <rect x="2" y="2" width="96" height="96" rx="18" ry="18" fill="#f0f7ff"/>
+  <!-- Connection lines (network/atom bonds) -->
+  <line x1="50" y1="22" x2="28" y2="68" stroke="#1565C0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="22" x2="72" y2="68" stroke="#1565C0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="28" y1="68" x2="72" y2="68" stroke="#1565C0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="22" x2="50" y2="50" stroke="#00ACC1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="68" x2="50" y2="50" stroke="#00ACC1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="72" y1="68" x2="50" y2="50" stroke="#00ACC1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Arrow on right bond -->
+  <polygon points="68,56 74,62 66,62" fill="#00ACC1"/>
+  <!-- Arrow on left bond -->  
+  <polygon points="34,52 28,58 36,58" fill="#00ACC1"/>
+  <!-- Arrow on bottom bond -->
+  <polygon points="58,70 52,76 52,64" fill="#00ACC1"/>
+  <!-- Central node (larger, cyan) -->
+  <circle cx="50" cy="50" r="8" fill="url(#nodeGrad)" stroke="#ffffff" stroke-width="2"/>
+  <!-- Top node -->
+  <circle cx="50" cy="22" r="7" fill="url(#iconGrad)" stroke="#ffffff" stroke-width="2"/>
+  <!-- Bottom-left node -->
+  <circle cx="28" cy="68" r="7" fill="url(#iconGrad)" stroke="#ffffff" stroke-width="2"/>
+  <!-- Bottom-right node -->
+  <circle cx="72" cy="68" r="7" fill="url(#iconGrad)" stroke="#ffffff" stroke-width="2"/>
+  <!-- Small accent nodes on midpoints -->
+  <circle cx="39" cy="36" r="3.5" fill="#00ACC1"/>
+  <circle cx="61" cy="36" r="3.5" fill="#0D47A1"/>
+  <circle cx="50" cy="68" r="3.5" fill="#1565C0"/>
+</svg>

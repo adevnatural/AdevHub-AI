@@ -51,8 +51,7 @@ const TRANSLATIONS = {
     },
     workspace: {
       title: "Opret dit første arbejdsområde",
-      description:
-        "Opret dit første arbejdsområde og kom i gang med Adev-AI.",
+      description: "Opret dit første arbejdsområde og kom i gang med Adev-AI.",
     },
   },
   common: {
