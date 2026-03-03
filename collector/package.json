@@ -1,5 +1,5 @@
 {
-  "name": "anything-llm-document-collector",
+  "name": "adevhub-ai-collector",
   "version": "1.11.0",
   "description": "Document collector server endpoints",
   "main": "index.js",

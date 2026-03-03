@@ -1,4 +1,4 @@
-name: anythingllm
+name: AdevHub-AI
 
 networks:
   anything-llm:
@@ -6,7 +6,7 @@ networks:
 
 services:
   anything-llm:
-    container_name: anythingllm
+    container_name: AdevHub-AI
     build:
       context: ../.
       dockerfile: ./docker/Dockerfile

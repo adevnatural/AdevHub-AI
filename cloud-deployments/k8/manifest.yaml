@@ -14,7 +14,7 @@ spec:
     - ReadWriteOnce                                                                                                                                      
   awsElasticBlockStore:    
     # This is the volume UUID from AWS EC2 EBS Volumes list.                                                                                                                              
-    volumeID: "{{ anythingllm_awsElasticBlockStore_volumeID }}"                                                                                                                           
+    volumeID: "{{ AdevHub-AI_awsElasticBlockStore_volumeID }}"                                                                                                                           
     fsType: ext4
   nodeAffinity:                                                                                                                                          
     required:                                                                                                                                            
@@ -92,7 +92,7 @@ spec:
             memory: "512Mi"
             cpu: "250m"
         imagePullPolicy: IfNotPresent
-        image: "mintplexlabs/anythingllm:render"
+        image: "mintplexlabs/AdevHub-AI:render"
         securityContext:                     
           allowPrivilegeEscalation: true                                                                                                                                                                                                                                                 
           capabilities:                                                                                                                                                                                                                                                                  

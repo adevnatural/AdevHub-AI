@@ -1,6 +1,6 @@
-# How to deploy a private AnythingLLM instance on AWS
+# How to deploy a private AdevHub-AI instance on AWS
 
-With an AWS account you can easily deploy a private AnythingLLM instance on AWS. This will create a url that you can access from any browser over HTTP (HTTPS not supported). This single instance will run on your own keys and they will not be exposed - however if you want your instance to be protected it is highly recommend that you set a password once setup is complete.
+With an AWS account you can easily deploy a private AdevHub-AI instance on AWS. This will create a url that you can access from any browser over HTTP (HTTPS not supported). This single instance will run on your own keys and they will not be exposed - however if you want your instance to be protected it is highly recommend that you set a password once setup is complete.
 
 **Quick Launch (EASY)**
 1. Log in to your AWS account
@@ -10,7 +10,7 @@ With an AWS account you can easily deploy a private AnythingLLM instance on AWS.
 
 ![Create Stack](../../../images/screenshots/create_stack.png)
 
-5. Use the file `cloudformation_create_anythingllm.json` as your JSON template.
+5. Use the file `cloudformation_create_AdevHub-AI.json` as your JSON template.
 
 ![Upload Stack](../../../images/screenshots/upload.png)
 

@@ -8,12 +8,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mintplex-labs/anything-llm.git"
+    "url": "git+https://github.com/adevnatural/AsistenAI-Adev.git"
   },
   "bugs": {
-    "url": "https://github.com/mintplex-labs/anything-llm/issues"
+    "url": "https://github.com/adevnatural/AsistenAI-Adev/issues"
   },
-  "homepage": "https://github.com/mintplex-labs/anything-llm#readme",
+  "homepage": "https://github.com/adevnatural/AsistenAI-Adev#readme",
   "engines": {
     "node": ">=18"
   },

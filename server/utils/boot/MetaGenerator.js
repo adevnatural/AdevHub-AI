@@ -101,8 +101,7 @@ class MetaGenerator {
         tag: "meta",
         props: {
           property: "og:image",
-          content:
-            "/adevhub-ai-icon.svg",
+          content: "/adevhub-ai-icon.svg",
         },
       },
 
@@ -133,8 +132,7 @@ class MetaGenerator {
         tag: "meta",
         props: {
           property: "twitter:image",
-          content:
-            "/adevhub-ai-icon.svg",
+          content: "/adevhub-ai-icon.svg",
         },
       },
 
