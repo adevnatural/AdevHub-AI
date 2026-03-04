@@ -6,7 +6,7 @@ const { CollectorApi } = require("../collectorApi");
 const pluginsPath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, "../../storage/plugins/agent-skills")
-    : path.resolve(process.env.STORAGE_DIR, "plugins", "agent-skills");
+    : path.resolve(process.env.STORAGE_DIR || path.resolve(__dirname, "../../storage"), "plugins", "agent-skills");
 const sharedWebScraper = new CollectorApi();
 
 class ImportedPlugin {

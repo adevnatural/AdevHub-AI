@@ -4,7 +4,7 @@ const path = require("path");
 const documentsPath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../storage/documents`)
-    : path.resolve(process.env.STORAGE_DIR, `documents`);
+    : path.resolve(process.env.STORAGE_DIR || path.resolve(__dirname, `../../storage`), `documents`);
 
 class DocumentManager {
   constructor({ workspace = null, maxTokens = null }) {
@@ -59,7 +59,7 @@ class DocumentManager {
 
         pinnedDocs.push(data);
         tokens += data.token_count_estimate || 0;
-      } catch {}
+      } catch { }
     }
 
     this.log(

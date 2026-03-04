@@ -6,19 +6,19 @@ const { DocumentSyncQueue } = require("../../models/documentSyncQueue");
 const documentsPath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../storage/documents`)
-    : path.resolve(process.env.STORAGE_DIR, `documents`);
+    : path.resolve(process.env.STORAGE_DIR || path.resolve(__dirname, `../../storage`), `documents`);
 const directUploadsPath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../storage/direct-uploads`)
-    : path.resolve(process.env.STORAGE_DIR, `direct-uploads`);
+    : path.resolve(process.env.STORAGE_DIR || path.resolve(__dirname, `../../storage`), `direct-uploads`);
 const vectorCachePath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../storage/vector-cache`)
-    : path.resolve(process.env.STORAGE_DIR, `vector-cache`);
+    : path.resolve(process.env.STORAGE_DIR || path.resolve(__dirname, `../../storage`), `vector-cache`);
 const hotdirPath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../../collector/hotdir`)
-    : path.resolve(process.env.STORAGE_DIR, `../../collector/hotdir`);
+    : path.resolve(process.env.STORAGE_DIR || path.resolve(__dirname, `../../storage`), `../../collector/hotdir`);
 
 // Should take in a folder that is a subfolder of documents
 // eg: youtube-subject/video-123.json
@@ -293,7 +293,7 @@ function hasVectorCachedFiles() {
       fs.readdirSync(vectorCachePath)?.filter((name) => name.endsWith(".json"))
         .length !== 0
     );
-  } catch {}
+  } catch { }
   return false;
 }
 

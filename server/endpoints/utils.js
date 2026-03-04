@@ -193,7 +193,7 @@ function getDeploymentVersion() {
  * Returns the user agent for the AdevHub-AI deployment.
  * @returns {string} The user agent.
  */
-function getAdevHub-AIUserAgent() {
+function getAdevHubAIUserAgent() {
   const version = getDeploymentVersion() || "unknown";
   return `AdevHub-AI/${version}`;
 }
@@ -202,5 +202,5 @@ module.exports = {
   utilEndpoints,
   getGitVersion,
   getModelTag,
-  getAdevHub-AIUserAgent,
+  getAdevHubAIUserAgent,
 };
