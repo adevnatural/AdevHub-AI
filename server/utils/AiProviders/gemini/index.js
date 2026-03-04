@@ -34,7 +34,11 @@ class GeminiLLM {
     this.model =
       modelPreference ||
       process.env.GEMINI_LLM_MODEL_PREF ||
-      "gemini-2.0-flash-lite";
+      "gemini-2.0-flash-lite-preview-02-05";
+
+    if (this.model === "gemini-2.0-flash-lite" || this.model === "gemini-2.0-flash-lite-001") {
+      this.model = "gemini-2.0-flash-lite-preview-02-05";
+    }
 
     const isExperimental = this.isExperimentalModel(this.model);
     this.openai = new OpenAIApi({
